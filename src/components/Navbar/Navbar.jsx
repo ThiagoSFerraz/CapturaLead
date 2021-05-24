@@ -10,19 +10,19 @@ export default function Navbar() {
       <img src={logo} alt="logo" />
       <ul className="navLinks" id={showLinks ? "active" : ""}>
         <li>
-          <a href="/">LOREM</a>
+          <a >LOREM</a>
         </li>
         <li>
-          <a href="/">IPSUM</a>
+          <a >IPSUM</a>
         </li>
         <li>
-          <a href="/">LOREM IPSUM</a>
+          <a>LOREM IPSUM</a>
         </li>
         <li>
-          <a href="/">LOREM</a>
+          <a >LOREM</a>
         </li>
         <li>
-          <a href="/">
+          <a >
             <button>Lorem Ipsum</button>
           </a>
         </li>
