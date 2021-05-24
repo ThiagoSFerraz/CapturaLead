@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/https://thiagosferraz.github.io/capturaLead/static/css/main.5add4611.chunk.css",
-    "main.js": "/https://thiagosferraz.github.io/capturaLead/static/js/main.1841833d.chunk.js",
-    "main.js.map": "/https://thiagosferraz.github.io/capturaLead/static/js/main.1841833d.chunk.js.map",
+    "main.js": "/https://thiagosferraz.github.io/capturaLead/static/js/main.14d21c8b.chunk.js",
+    "main.js.map": "/https://thiagosferraz.github.io/capturaLead/static/js/main.14d21c8b.chunk.js.map",
     "runtime-main.js": "/https://thiagosferraz.github.io/capturaLead/static/js/runtime-main.f97eccd2.js",
     "runtime-main.js.map": "/https://thiagosferraz.github.io/capturaLead/static/js/runtime-main.f97eccd2.js.map",
     "static/css/2.70d2dd02.chunk.css": "/https://thiagosferraz.github.io/capturaLead/static/css/2.70d2dd02.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.70d2dd02.chunk.css",
     "static/js/2.0a6d8b30.chunk.js",
     "static/css/main.5add4611.chunk.css",
-    "static/js/main.1841833d.chunk.js"
+    "static/js/main.14d21c8b.chunk.js"
   ]
 }
