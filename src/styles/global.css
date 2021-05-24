@@ -5,6 +5,9 @@
   padding: 0;
   font-family: "Poppins";
 }
+html{
+  scroll-behavior: smooth;
+}
 
 :root {
   --azul: #00bffe;
@@ -39,3 +42,20 @@ a {
     font-size: 70%;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--azul);
+  border: none;
+  border-radius: 25px;
+}
+

@@ -4,7 +4,7 @@
 #clientSlider {
   height: 15rem;
 
-  margin: 10rem auto;
+  margin: auto;
   width: 100%;
 }
 
@@ -12,6 +12,8 @@
   width: 25rem;
   margin: 0 auto;
   margin-bottom: 2rem;
+  border: none;
+  border-radius: 10px;
 }
 
 .clientSlide {
