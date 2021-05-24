@@ -1,122 +1,115 @@
+.nav {
+  background: #fff;
+  height: 10vh;
+  border-bottom: var(--azul) 1px solid;
+  display: flex;
+  align-items: center;
 
-.nav{
-    background: #fff;
-    height: 10vh;
-    border-bottom: var(--azul) 1px solid;
-    display: flex;
-    align-items: center;
-
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 
-.nav img{
-    height: 7vh;
-    margin-left: 20rem;
+.nav img {
+  height: 7vh;
+  margin-left: 20rem;
 }
 
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
-.navLinks{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  height: 100%;
+  width: 70%;
+  margin-left: auto;
 
-    height: 100%;
-    width: 70%;
-    margin-left: auto;
-
-    list-style: none;
-    position: sticky;
+  list-style: none;
+  position: sticky;
 }
 
-.navLinks li a{
-    color: #000;
-    cursor: pointer;
-    font-size: 1.2rem;
+.navLinks li a {
+  color: #000;
+  cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .navLinks button {
-    height: 3rem;
-    width: 8.5rem;
-    font-size: 1rem;
-    
-    background: #fff;
-    color: var(--azul);
-    border: var(--azul) 1px solid;
-    border-radius: 50px;
+  height: 3rem;
+  width: 8.5rem;
+  font-size: 1rem;
 
-    margin-right: 15rem;
+  background: #fff;
+  color: var(--azul);
+  border: var(--azul) 1px solid;
+  border-radius: 50px;
+
+  margin-right: 15rem;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+  .nav img {
+    margin-left: 10rem;
+  }
+  .nav button {
+    margin-right: 10rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .nav img {
     margin-left: 5rem;
-    cursor: pointer;
+  }
+  .nav button {
+    margin-right: 5rem;
+  }
 }
 
-@media (max-width: 1600px){
-    .nav img {
-        margin-left: 10rem;
-    }
-    .nav button {
-        margin-right: 10rem;
-    }
-}
+@media screen and (max-width: 650px) {
+  .toggleIcon {
+    width: 10%;
+    margin-left: auto;
+  }
+  .line {
+    width: 40px;
+    height: 5px;
+    border-radius: 100px;
 
-@media (max-width: 1280px){
-    .nav img {
-        margin-left: 5rem;
-    }
-    .nav button {
-        margin-right: 5rem;
-    }
-}
+    margin: 5px;
+    margin-left: auto;
 
+    background: var(--azul);
+  }
 
-@media screen and (max-width: 650px){
-    
-    .toggleIcon {
-        width: 10%;
-        margin-left: auto;
-        
-    }
-    .line{
-        width: 40px;
-        height: 5px;
-        border-radius: 100px;
-        
-        margin: 5px;
-        margin-left: auto;
+  .nav .navLinks {
+    display: none;
+  }
 
-        background: var(--azul);
-        
-    }
-    
-    
-    .nav .navLinks {
-        display: none;
-    }
-
-    #active {
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        background: var(--azul);
-        top: 10vh;
-        width: 100%;
-        height: 0vh;
-        animation-name: active;
-        animation-duration: 300ms;
-        animation-fill-mode: forwards;
-    }
-    #active a button {
-        box-shadow: 0 2px 5px 0 #00000062;
-        height: 4rem;
-        width: 9.5rem;
-    }
+  #active {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background: var(--azul);
+    top: 10vh;
+    width: 100%;
+    height: 0vh;
+    animation-name: active;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+  }
+  #active a button {
+    box-shadow: 0 2px 5px 0 #00000062;
+    height: 4rem;
+    width: 9.5rem;
+  }
 }
 
 @keyframes active {
-    from{
-        height: 0vh;
-    }to{
-        height: 40vh;        
-    }
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 40vh;
+  }
 }
-
