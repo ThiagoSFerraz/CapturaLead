@@ -7,7 +7,7 @@ import "../../styles/pages/fourthPage.css";
 export default function FourthPage() {
   return (
     <div>
-      <h1>Compare os resultados de Alta Performance da CapturaLead</h1>
+      <h1 className="title">Compare os resultados de Alta Performance da CapturaLead</h1>
       <div className="container4">
         <div className="vsFirst">
           <h2>Sistema de captação do mercado - Baixa conversão</h2>
