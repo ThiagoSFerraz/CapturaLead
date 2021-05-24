@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 2.5rem;
+    align-self: center;
+}
+
+.benefits {
+    height: 60vh;
+
+    width: 99%;
+
+    display: flex;
+    
+}
+.direita{
+    width: 50%;
+    margin: 5px;
+    height: 100%;
+    
+}
+.esquerda {
+    width: 50%;
+    height: 100%;
+    margin: 5px;
+
+    
+}
+
+.card{
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+.card img {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 1rem;
+    align-self: center;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 650px){
+    .container{
+        display: none;
+    }
+}

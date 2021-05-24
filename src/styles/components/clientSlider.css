@@ -1,0 +1,145 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+#clientSlider {
+    height: 15rem;
+    
+    margin: 10rem auto;
+    width: 100%;
+
+}
+
+
+.clientSlide img {
+    width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.clientSlide {
+    transform: scale(0.8);
+    transition: transform 300ms;
+    opacity: 0.3;
+}
+
+.activeClientSlide {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.slick-dots
+{
+
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+    
+
+    width: 1rem;
+    height: 1rem;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 1rem;
+    height: 1rem;
+
+    cursor: pointer;
+
+    
+    outline:none;
+    
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+    
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    
+    color: var(--azul);
+    background: var(--azul)
+}
+.slick-dots li button:before
+{
+    
+    font-size: 0px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 1rem;
+    height: 1rem;
+    color: var(--cinza);
+
+    background: var(--cinza);
+    text-align: center;
+
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    color: var(--azul);
+    background: var(--azul);
+}
+
+@media (max-width: 1200px){
+    .clientSlide img {
+        width: 20rem;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 900px){
+    .clientSlide img {
+        width: 18rem;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .clientSlide img {
+        width: 16rem;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .clientSlide img {
+        width: 12rem;
+        margin: 0 auto;
+    }
+    
+}

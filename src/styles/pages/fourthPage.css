@@ -1,0 +1,118 @@
+.container4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.vsFirst {
+    width: 49%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vsFirst h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.vsFirst img {
+    width: 95%;
+}
+
+.vsFirst .list {
+    width: 85%;
+}
+
+.vsFirst .listRow {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-right: auto;
+    margin-bottom: 5px;
+    
+}
+.vsFirst .listRow img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2px;
+    
+}
+
+
+.versus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.versus span {
+    height: 8rem;
+    border: solid 1px var(--azul);
+}
+
+.versus div {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+.vsSecond {
+    width: 49%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.vsSecond h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vsSecond .notebook2{
+    width: 97%;
+    margin-bottom: 6%;
+}
+
+.vsSecond .list {
+    width: 85%;
+}
+
+.vsSecond .listRow {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-right: auto;
+    margin-bottom: 5px;
+    
+}
+.vsSecond .listRow img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2px;
+    
+}
+.listText{
+    font-size: 0.9rem;
+}
+
+@media (max-width:650px){
+    .container4{
+        height: 80vh;
+    }
+    .listText{
+        font-size: 0.8rem
+    }
+}
